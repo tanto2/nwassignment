@@ -6,13 +6,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Table;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-//@Data
-//@NoArgsConstructor
 @Table(name = "web_article_info")
 @Entity
 public class ArticleInfo {
@@ -59,6 +53,16 @@ public class ArticleInfo {
 	}
 
 	public void setLocation(String location) {
+		this.location = location;
+	}
+	
+	public ArticleInfo() {}
+
+	public ArticleInfo(Long id, String url, int engagement, String location) {
+		super();
+		this.id = id;
+		this.url = url;
+		this.engagement = engagement;
 		this.location = location;
 	}
 	

@@ -25,7 +25,7 @@ public class AggregatedSocialScoreController {
 	@Autowired
 	private AggregatedSocialScoreService scoreService;
 
-	// for personal use - get all
+	// For getting all the articles 
 	@GetMapping("/articles")
 	public List<ArticleInfo> getAllUrls() {
 		return scoreService.getAllUrls();

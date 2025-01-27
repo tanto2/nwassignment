@@ -7,7 +7,6 @@ import com.assignment.newswhip.aggregated_social_score.model.Report;
 
 public interface AggregatedSocialScoreService {
 	
-	//for personal use - get all
 	public List<ArticleInfo> getAllUrls();
 	
 	public ArticleInfo saveArticle(ArticleInfo articleInfo);
