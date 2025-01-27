@@ -4,6 +4,7 @@ Prerequisites:
 
 Maven 3.4.2+
 Java 17+
+Postman
 
 Booting Up the Application:
 
@@ -11,8 +12,17 @@ Booting Up the Application:
 	git clone https://github.com/tanto2/nwassignment
 	2. Navigate to the folder:
 	cd nwassignment
-	3. Run the application:
-  mvn clean install
+	3. Import the project in STS
+	Import project -> Existing Maven Projects -> <browse projects> -> Select aggregated-social-score -> Finish
+ 	4. Select aggregated-social-score -> Run As -> SpringBoot App
+  	5. Open Postman, use the below urls for testing
+
+If using jar,
+	1. Download and run in terminal 
+ 	java -jar aggregated-social-score-0.0.1-SNAPSHOT.jar
+  	2. Open Postman, use the below urls for testing
+
+  	
 
 Testing:
 
