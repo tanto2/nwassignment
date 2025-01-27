@@ -17,7 +17,7 @@ Booting Up the Application:
  	4. Select aggregated-social-score -> Run As -> SpringBoot App
   	5. Open Postman, use the below urls for testing
 
-If using jar,
+	If using jar:
 	1. Download and run in terminal 
  	java -jar aggregated-social-score-0.0.1-SNAPSHOT.jar
   	2. Open Postman, use the below urls for testing
